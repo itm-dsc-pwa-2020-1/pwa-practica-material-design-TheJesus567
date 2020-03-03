@@ -1,0 +1,141 @@
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Grid layout</title>
+    <link rel="stylesheet" href="grid_layout.css">
+    <link rel="stylesheet" href="media_query.css">
+    <link rel="stylesheet" href="./material.min.css">
+    <script src="mdl/material.min.js"></script>
+    <link rel="stylesheet" href="mdl/material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="pantalla">
+      <header class="header">
+        <div class="cajaheader">
+          <img src="logo.png" alt="" id="logo">
+          <h2 id="titulo">Hennes & Mauritz AB</h2>
+          <nav class="nav">
+            <div class="contenedori">
+              <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">account_box</div>
+              <!-- Icon badge on icon -->
+              <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="♥">account_box</div>
+              <div id="tt1" class="icon material-icons">add</div>
+              <div class="mdl-tooltip" data-mdl-for="tt1">
+                Follow
+              </div>
+              <!-- Large Tooltip -->
+              <div id="tt2" class="icon material-icons">print</div>
+              <div class="mdl-tooltip mdl-tooltip--large" for="tt2">
+                Print
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="mdc-top-app-bar__row">
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
+          </section>
+        </div>
+
+      </header>
+      <section class="sectoft">
+        <style>
+          .demo-card-wide.mdl-card {
+            width: 512px;
+          }
+
+          .demo-card-wide>.mdl-card__title {
+            color: #fff;
+            height: 176px;
+            background: url('oferta.png') center / cover;
+          }
+
+          .demo-card-wide>.mdl-card__menu {
+            color: #fff;
+          }
+        </style>
+
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Welcome</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Mauris sagittis pellentesque lacus eleifend lacinia...
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Get Started
+            </a>
+          </div>
+          <div class="mdl-card__menu">
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">share</i>
+            </button>
+          </div>
+        </div>
+        <br>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Button
+        </button>
+        <!-- Colored FAB button -->
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
+  <i class="material-icons">add</i>
+</button>
+      </section>
+      <aside class="aside">
+        <div class="">
+          <h2>ASIDE</h2>
+          <p id="poft">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <img src="talla.png" alt="" id="talla">
+        </div>
+      </aside>
+      <br>
+      <div class="ropa1">
+        <img src="playera.jpg" alt="" class="oferta">
+        <h3>Paquete de T-shirts ($199)</h3>
+      </div>
+      <div class="ropa2">
+        <img src="playera2.jpg" alt="" class="oferta">
+        <h3>Playera de algodón ($99)</h3>
+      </div>
+      <div class="ropa3">
+        <img src="playera3.jpg" alt="" class="oferta">
+        <h3>Playera con diseño estampado ($149)</h3>
+      </div>
+      <div class="ropa4">
+        <img src="playera4.jpg" alt="" class="oferta">
+        <h3>5-pack de playeras Slim Fit ($349)</h3>
+      </div>
+      <div class="ropa5">
+        <img src="playera5.jpg" alt="" class="oferta">
+        <h3>Playera polo Slim Fit ($149)</h3>
+      </div>
+      <div class="ropa6">
+        <img src="playera6.jpg" alt="" class="oferta">
+        <h3>Playera Regular Fit ($149)</h3>
+      </div>
+      </button>
+      <footer class="footer">
+        <br>
+        <div class="cajafooter">
+          <div class="">
+            <img src="facebook.png" alt="">
+            <img src="instagram.png" alt="">
+            <img src="youtube.png" alt="">
+          </div>
+          <div class="derecha">
+            Acerca de.. &copy; Todos los derechos recervados por HyM
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  </html>
